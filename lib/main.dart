@@ -1,5 +1,6 @@
 import 'package:expense_app/transaction.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 void main() => runApp(MyApp());
 
@@ -36,7 +37,6 @@ class MyHomePage extends StatelessWidget {
         title: Text('Flutter App'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
@@ -44,6 +44,25 @@ class MyHomePage extends StatelessWidget {
             child: Card(
               color: Colors.blue,
               child: Text('Chart!'),
+            ),
+          ),
+          Card(
+            child: Container(
+              padding: EdgeInsets.all(10),
+              child: Column(
+                children: <Widget>[
+                  TextField(
+                    decoration: InputDecoration(labelText: 'Title'),
+                  ),
+                  TextField(
+                    decoration: InputDecoration(labelText: 'Amout'),
+                  ),
+                  RaisedButton(
+                    child: Text("Add"),
+                    onPressed: () {},
+                  )
+                ],
+              ),
             ),
           ),
           Column(
@@ -61,28 +80,26 @@ class MyHomePage extends StatelessWidget {
                         width: 2,
                       )),
                       child: Text(
-                        tx.amount.toString() + '€',
+                        '${tx.amount}€',
                         style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.purple
-                        ),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.purple),
                       ),
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text(tx.title, 
+                        Text(
+                          tx.title,
                           style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16),
+                              fontWeight: FontWeight.bold, fontSize: 16),
                         ),
-                        Text(tx.date.toString(), 
-                          style:
-                            TextStyle(
-                              fontSize: 12,
-                              color: Colors.grey.shade600
-                            ),)
+                        Text(
+                          DateFormat('dd MMMM yyyy, H:mm').format(tx.date),
+                          style: TextStyle(
+                              fontSize: 12, color: Colors.grey.shade600),
+                        )
                       ],
                     )
                   ],
