@@ -1,17 +1,14 @@
 # expense_app
 
-A new Flutter project.
+Expense App is a Flutter project to progress on styling.
 
-## Getting Started
+### WIP:
 
-This project is a starting point for a Flutter application.
+<img src="https://user-images.githubusercontent.com/20175372/69015761-943da100-0997-11ea-8bf9-36ab3cd2a7d5.png" width="15%" style="margin-right: 50px"><img src="https://user-images.githubusercontent.com/20175372/69015762-94d63780-0997-11ea-9f99-4e2988479ee7.png" width="15%">
 
-A few resources to get you started if this is your first Flutter project:
+### More of this ?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This project is included in a series of Flutter written projects to learn and progress.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# FlutterTraining-ExpenseApp
+My previous apps in Flutter:  
+[Quizz App](https://github.com/BLKKKBVSIK/FlutterTraining-QuizzApp)
