@@ -1,10 +1,29 @@
 # expense_app
 
-Expense App is a Flutter project to progress on styling.
+Expense App is a training project about:
+- Experimenting about custom widgets
+- Trying new widgets
+- Theming
+- MediaQuery
+- CI with Flutter
+- Using assets
+- GH Action
+- Adding/Remove feature if on Android/iOS
+- And a lot more
 
-### WIP:
+### WHAT CAN STILL BE DONE:
 
-<img src="https://user-images.githubusercontent.com/20175372/69015761-943da100-0997-11ea-8bf9-36ab3cd2a7d5.png" width="15%" style="margin-right: 50px"><img src="https://user-images.githubusercontent.com/20175372/69015762-94d63780-0997-11ea-9f99-4e2988479ee7.png" width="15%">
+- [ ] Store expenses in local database/json
+- [ ] Optimisation and refactory 
+- [ ] Do a landscape view
+
+### DEMO:
+
+<p float="left">
+<img src="https://user-images.githubusercontent.com/20175372/70616715-5c7cee80-1c0f-11ea-89e2-345ff8aa04d1.png" style="margin: 0px 25px 0px 25px; width: 15%;">
+<img src="https://user-images.githubusercontent.com/20175372/70616716-5d158500-1c0f-11ea-9133-a2e1292cbe3e.png" style="margin: 0px 25px 0px 25px; width: 15%;">
+<img src="https://user-images.githubusercontent.com/20175372/70616717-5d158500-1c0f-11ea-9bcf-6eb745432b02.png" style="margin: 0px 25px 0px 25px; width: 15%;">
+</p>
 
 ### More of this ?
 
