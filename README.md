@@ -20,10 +20,16 @@ Expense App is a training project about:
 ### DEMO:
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/20175372/70616715-5c7cee80-1c0f-11ea-89e2-345ff8aa04d1.png" style="margin: 0px 25px 0px 25px; width: 15%;">
-<img src="https://user-images.githubusercontent.com/20175372/70616716-5d158500-1c0f-11ea-9133-a2e1292cbe3e.png" style="margin: 0px 25px 0px 25px; width: 15%;">
-<img src="https://user-images.githubusercontent.com/20175372/70616717-5d158500-1c0f-11ea-9bcf-6eb745432b02.png" style="margin: 0px 25px 0px 25px; width: 15%;">
+    <img src="https://user-images.githubusercontent.com/20175372/70616715-5c7cee80-1c0f-11ea-89e2-345ff8aa04d1.png" width="15%" style="margin: 0px 25px 0px 25px;">
+    <img src="https://user-images.githubusercontent.com/20175372/70616716-5d158500-1c0f-11ea-9133-a2e1292cbe3e.png" width="15%" style="margin: 0px 25px 0px 25px;">
+    <img src="https://user-images.githubusercontent.com/20175372/70616717-5d158500-1c0f-11ea-9bcf-6eb745432b02.png" width="15%" style="margin: 0px 25px 0px 25px;">
 </p>
+
+### Install
+Wanna try the app ?
+See the [releases](https://github.com/BLKKKBVSIK/FlutterTraining-ExpenseApp/releases) 
+
+The release is Android only since i don't own an Apple Developer account.
 
 ### More of this ?
 
